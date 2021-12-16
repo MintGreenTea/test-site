@@ -1,0 +1,57 @@
+html {
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+
+    text-align: center;
+    line-height: 2;
+    
+    background-color: rgb(226, 116, 116);
+    color: black;
+
+    height: 100%
+}
+
+body{
+    width: 1000px;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: rgb(112, 112, 112);
+    color: white;
+    border-left: solid rgb(20, 20, 20);
+    border-right: solid rgb(20, 20, 20);
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 68px;
+}
+
+h4 {
+    margin: 0;
+    padding: 15px 0 0;
+    font-size: 30px;
+}
+
+ul{
+    text-align: center;
+    list-style: inside;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
