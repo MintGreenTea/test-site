@@ -6,7 +6,7 @@ html {
     src: url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 
-    text-align: center;
+    text-align: left;
     line-height: 2;
     
     background-color: rgb(226, 116, 116);
@@ -35,17 +35,28 @@ h1 {
     margin: 0;
     padding: 20px 0;
     font-size: 68px;
+    text-align: center;
 }
 
-h4 {
+h2 {
     margin: 0;
     padding: 15px 0 0;
     font-size: 30px;
+    text-align: center;
+}
+
+p {
+    padding: 0 20px;
 }
 
 ul{
-    text-align: center;
-    list-style: inside;
+    display: table;
+    margin: 0 auto;
+}
+ul.links{
+    display: table;
+    margin: 0;
+    padding: 10px 40px;
 }
 
 a {
